@@ -1,10 +1,35 @@
-*{padding: 0;margin: 0;box-sizing: border-box; font-family:Helvetica;}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+}
 
 /*Cabeçalho*/
-header{
-	   background-color:  #3db36b;
-	   color:  #fff;
-	   padding:  15px;
-	   text-align: center;
+header {
+	background-color: #DC143C;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+	border-bottom: 10px solid #000000;
+
 }
+
 /*Grid de produtos*/
+.container {
+	background-color: #fff;
+	min-height: 60vh;
+	padding: 50px;
+}
+
+footer {
+	background-color: #DC143C;
+	color: #fff;
+	border-top: 10px solid #000000;
+	padding: 80px;
+}
+.card{ 
+	width: 31%;
+	display: inline-block ;
+	
+}
